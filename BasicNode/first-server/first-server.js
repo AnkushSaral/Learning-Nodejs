@@ -1,5 +1,6 @@
 // Import the HTTP module
-const http = require('http');
+// const http = require('http');
+import http from 'http';
 
 // Create a server object
 const server = http.createServer((req, res) => {
